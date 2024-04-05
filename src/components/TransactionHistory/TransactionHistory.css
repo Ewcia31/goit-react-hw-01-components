@@ -1,0 +1,40 @@
+.transaction-table {
+  width: 700px;
+  margin: 20px auto;
+
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+.transaction-table thead th {
+  background-color: lightseagreen;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.transaction-table tbody tr {
+  background-color: white;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 12px;
+}
+
+.transaction-table th,
+.transaction-table td {
+  border-right: 1px solid #eaeaea;
+  padding: 10px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.transaction-table tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+.transaction-table th:last-child,
+.transaction-table td:last-child {
+  border-right: none;
+}
